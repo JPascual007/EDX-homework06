@@ -12,7 +12,7 @@ WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 
 ## Mock Up
-<img src="./assets/images/06-server-side-apis-homework-demo.gif" alt="Mock Up of Weather Dashboard"/>
+<img src="./assets/images/06-server-side-apis-homework-demo.png" alt="Mock Up of Weather Dashboard"/>
 
 ## Screenshots
 <img src="./assets/images/?????????????.png" alt="Screenshot of a functional Weather Dashboard"/>
