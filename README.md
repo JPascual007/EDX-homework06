@@ -1,15 +1,10 @@
 # Weather Dashboard
 
 ## Description
-GIVEN a weather dashboard with form inputs
-WHEN I search for a city
-THEN I am presented with current and future conditions for that city and that city is added to the search history
-WHEN I view current weather conditions for that city
-THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, and the wind speed
-WHEN I view future weather conditions for that city
-THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
-WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city
+1. Searching for a city will add it to your history and present you with current/future weather conditions
+2. Viewing the current conditions will provide the City name, date, weather icon, temperature, humidity and wind speed
+3. Checking the future weather conditions will display the 5-Day forecast with all given variables
+4. Clicking on a city from the search history also provides the current/future weather conditions
 
 ## Mock Up
 <img src="./assets/images/06-server-side-apis-homework-demo.png" alt="Mock Up of Weather Dashboard"/>
