@@ -15,7 +15,7 @@ THEN I am again presented with current and future conditions for that city
 <img src="./assets/images/06-server-side-apis-homework-demo.png" alt="Mock Up of Weather Dashboard"/>
 
 ## Screenshots
-<img src="./assets/images/?????????????.png" alt="Screenshot of a functional Weather Dashboard"/>
+<img src="./assets/images/WeatherDashboard.png" alt="Screenshot of a functional Weather Dashboard"/>
 
 ## Links
 [Application Link - Open in a new tab](https://jpascual007.github.io/EDX-homework06/)
