@@ -14,6 +14,7 @@
     
 <div id="main-content-flexbox">
     <div class="search-flexbox">
+        <!-- City Search Box-->
         <form class="search-button">
         <h2>Search for a City:</h2>
         <input placeholder="San Diego"id="inputValue" class="inputElement">
@@ -22,7 +23,29 @@
         <div class="gray-line"></div>
         <div id="button-container"></div>
     </div>
-</div>
+
+    <div id="current-city-forecast">
+        <!-- Displays the Date and City-->
+        <div class="currentCityDateBox"></div>
+        <h2 id="current-city-conditions" class="selected-city-box current-conditions current-weather-padding">
+        Please enter a specific city into the search menu</h2>
+
+        <!-- Display the values of the Temp/Winds/Humidity.-->
+        <p id="current-temp" class="left-padding"></p>
+        <p id="current-winds" class="left-padding"></p>
+        <p id="current-humidity" class="left-padding"></p>
+        </div>
+
+        <!-- 5 Day Forecast-->
+        <div id="five-day-forecast" class="five-forcast">
+        <h3>5-Day Forecast:</h3>
+        <p id="temp-card" class="cards-flexbox"><a id="intro-paragraph">
+            Upon entering the designated city, a display of the upcoming five-day projection shall be presented herein. 
+            This web application will display relevant information like, wind speed, humidity, and the temperature. 
+            Above the 5-Day Forecast section will display the current weather conditions.</p></a>        
+        </div>
+    </div>
+</div>  
 
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
     <script src="assets/js/script.js"></script>
